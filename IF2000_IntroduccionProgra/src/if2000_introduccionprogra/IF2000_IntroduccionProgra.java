@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package if2000_introduccionprogra;
-
+import logic.*;
 /**
  *
  * @author Hp
@@ -15,8 +15,8 @@ public class IF2000_IntroduccionProgra {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String name = "Lionel";
-        int age = 40;
+        //String name = "Lionel";
+        //int age = 40;
         
         /*Tipos de datos numericos:
         int, long, short, float, double, numeric
@@ -36,9 +36,13 @@ public class IF2000_IntroduccionProgra {
         int [][] y:
         */
         
-        System.out.println( "Hello World");
-        System.out.println("Name:" + name);
-        System.out.println("Age:" + age);
+        //System.out.println( "Hello World");
+        //System.out.println("Name:" + name);
+        //System.out.println("Age:" + age);
+        
+        Ejercicios_Semana2_PracticaEnClase ej;
+        ej = new Ejercicios_Semana2_PracticaEnClase();
+        ej.quiz2_B_piradime(5);
     }
     
 }
