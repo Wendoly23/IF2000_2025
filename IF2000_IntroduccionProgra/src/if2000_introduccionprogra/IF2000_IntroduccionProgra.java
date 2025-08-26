@@ -43,6 +43,13 @@ public class IF2000_IntroduccionProgra {
         Ejercicios_Semana2_PracticaEnClase ej;
         ej = new Ejercicios_Semana2_PracticaEnClase();
         ej.quiz2_B_piradime(5);
+        ej.ejercicioA(5);
+        ej.ejercicioB(12);
+        ej.ejercicioC(10);
+        ej.ejercicioD();
+        ej.ejercicioE();
+        ej.ejercicioF();
     }
     
+   
 }

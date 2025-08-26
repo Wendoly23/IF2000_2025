@@ -10,14 +10,14 @@ import domain.Person;
  */
 public class Account {
     
-    public abstract class Account{
+    public abstract class AccountC{
         
         //Atributes
         private String accountNumber;
         private double balance;
         private Person client;
 
-        public Account(String accountNumber, double balance, Person client) {
+        public AccountC(String accountNumber, double balance, Person client) {
          this.accountNumber = accountNumber;
         this.balance = balance;
         this.client = client;
