@@ -40,16 +40,32 @@ public class IF2000_IntroduccionProgra {
         //System.out.println("Name:" + name);
         //System.out.println("Age:" + age);
         
-        Ejercicios_Semana2_PracticaEnClase ej;
-        ej = new Ejercicios_Semana2_PracticaEnClase();
-        ej.quiz2_B_piradime(5);
-        ej.ejercicioA(5);
-        ej.ejercicioB(12);
-        ej.ejercicioC(10);
-        ej.ejercicioD();
-        ej.ejercicioE();
-        ej.ejercicioF();
-    }
+//        Ejercicios_Semana2_PracticaEnClase ej;
+//        ej = new Ejercicios_Semana2_PracticaEnClase();
+//        ej.quiz2_B_piradime(5);
+//        ej.ejercicioA(5);
+//        ej.ejercicioB(12);
+//        ej.ejercicioC(10);
+//        ej.cuadradoasterisco();
+//        ej.ejercicioD();
+//        ej.ejercicioE();
+//        ej.ejercicioF();
+        
+        
+       lab1_ejercicios j2;
+        j2 = new lab1_ejercicios();
+        j2.ejercicio1();
+        j2.ejercicio2();
+        j2.ejercicio3();
+        j2.ejercicio4();
+        j2.ejercicio5();
+        j2.ejercicio6();
+        j2.ejercicio7();
+        j2.ejercicio8();
+        j2.ejercicio9();
+        j2.ejercicio10();
+        j2.ejercicio11();
+        j2.ejercicio12();
+    }  
     
-   
 }
