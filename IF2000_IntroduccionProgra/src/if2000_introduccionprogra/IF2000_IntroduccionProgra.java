@@ -52,20 +52,44 @@ public class IF2000_IntroduccionProgra {
 //        ej.ejercicioF();
         
         
-       lab1_ejercicios j2;
-        j2 = new lab1_ejercicios();
-        j2.ejercicio1();
-        j2.ejercicio2();
-        j2.ejercicio3();
-        j2.ejercicio4();
-        j2.ejercicio5();
-        j2.ejercicio6();
-        j2.ejercicio7();
-        j2.ejercicio8();
-        j2.ejercicio9();
-        j2.ejercicio10();
-        j2.ejercicio11();
-        j2.ejercicio12();
+//       lab1_ejercicios j2;
+//        j2 = new lab1_ejercicios();
+//        j2.ejercicio1();
+//        j2.ejercicio2();
+//        j2.ejercicio3();
+//        j2.ejercicio4();
+//        j2.ejercicio5();
+//        j2.ejercicio6();
+//        j2.ejercicio7();
+//        j2.ejercicio8();
+//        j2.ejercicio9();
+//        j2.ejercicio10();
+//        j2.ejercicio11();
+//        j2.ejercicio12();
+        
+        
+//        Quiz_4 parejas;
+//        parejas = new Quiz_4();
+//        parejas.Datos();
+        
+        lab2_ejercicios s3;
+        s3 = new lab2_ejercicios();
+        s3.sumadepares(0);
+        s3.conversiontem();
+        s3.calculopotencia();
+        s3.mesteclado();
+        s3.resultadosevaluacion();
+        s3.areatriangulo();
+        s3.intercambiovalores();
+        s3.encontrarecuacion();
+        s3.numeronatural();
+        s3.promedionumeros();
+        s3.sumapares();
+        s3.calculo();
+        s3.sumacuadrados();
+        s3.calculofactorial();
+        s3.valormaximo();
     }  
+    
     
 }

@@ -184,7 +184,7 @@ public class lab1_ejercicios {
            pulsaciones = (210 - edad)/10;
        }
        
-        System.out.println("\nResultados");
+        System.out.println("Resultados");
         System.out.printf("\nEdad: %d anos", edad);
         System.out.printf("\nGenero: %s", genero.equals("F") ? "Femenino" : "Masculino");
         System.out.printf("\nPulsaciones por 10 segundos: %.1f", pulsaciones);
