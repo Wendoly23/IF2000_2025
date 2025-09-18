@@ -197,12 +197,12 @@ public class lab2_ejercicios {
       System.out.print("\nIngrese un numero natural K:");
       int naturalK = sc.nextInt();
       
-      if(naturalK >=0){
+      if(naturalK <=0){
           System.out.println("El numero ingresado debe ser mayor a 0");
       }else{
           int suma = 0;
           for (int i = 1; i < naturalK; i++) {
-              suma += 1;
+              suma += i;
           }
           System.out.println("La suma de los numeros naturales menores a "+naturalK+" es: "+suma);
       }      
@@ -286,8 +286,8 @@ public class lab2_ejercicios {
     sumaImpares += i;
     }
    }
-     System.out.println("Suma de números pares entre 1 y 200: " + sumaPares);
-     System.out.println("Suma de números impares entre 1 y 200: " + sumaImpares);        
+     System.out.println("Suma de numeros pares entre 1 y 200: " + sumaPares);
+     System.out.println("Suma de numeros impares entre 1 y 200: " + sumaImpares);        
   }
   
   public void sumacuadrados(){

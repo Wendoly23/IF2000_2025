@@ -70,7 +70,12 @@ public class Person {
 // salidas, igual se generan con contrl alt 
     @Override
     public String toString() {
-        return "Person{" + "name=" + name + ", lastName=" + lastName + ", id=" + id + ", phone=" + phone + ", age=" + age + '}';
+        return "Person\n" 
+                + "\nname=" + getName()
+                + "\n, lastName=" + getLastName() 
+                + "\n, id=" + getId()
+                + "\n, phone=" + getPhone() 
+                + ", age=" + getAge();
     }
     
    

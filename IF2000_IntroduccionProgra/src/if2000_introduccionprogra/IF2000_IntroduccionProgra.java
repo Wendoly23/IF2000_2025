@@ -72,23 +72,23 @@ public class IF2000_IntroduccionProgra {
 //        parejas = new Quiz_4();
 //        parejas.Datos();
         
-        lab2_ejercicios s3;
-        s3 = new lab2_ejercicios();
-        s3.sumadepares(0);
-        s3.conversiontem();
-        s3.calculopotencia();
-        s3.mesteclado();
-        s3.resultadosevaluacion();
-        s3.areatriangulo();
-        s3.intercambiovalores();
-        s3.encontrarecuacion();
-        s3.numeronatural();
-        s3.promedionumeros();
-        s3.sumapares();
-        s3.calculo();
-        s3.sumacuadrados();
-        s3.calculofactorial();
-        s3.valormaximo();
+//        lab2_ejercicios s3;
+//        s3 = new lab2_ejercicios();
+//        s3.sumadepares(0);
+//        s3.conversiontem();
+//        s3.calculopotencia();
+//        s3.mesteclado();
+//        s3.resultadosevaluacion();
+//        s3.areatriangulo();
+//        s3.intercambiovalores();
+//        s3.encontrarecuacion();
+//        s3.numeronatural();
+//        s3.promedionumeros();
+//        s3.sumapares();
+//        s3.calculo();
+//        s3.sumacuadrados();
+//        s3.calculofactorial();
+//        s3.valormaximo();
     }  
     
     

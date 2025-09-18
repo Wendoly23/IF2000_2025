@@ -3,22 +3,27 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package domain;
-import domain.Person;
+
 /**
  *
  * @author Hp
  */
-public class Account {
+
     
-    public abstract class AccountC{
+    public abstract class Account{
         
         //Atributes
         private String accountNumber;
         private double balance;
         private Person client;
+        
+        public Account(){
+        }
 
-        public AccountC(String accountNumber, double balance, Person client) {
-         this.accountNumber = accountNumber;
+        public Account(String accountNumber
+                , double balance
+                , Person client) {
+        this.accountNumber = accountNumber;
         this.balance = balance;
         this.client = client;
         }
@@ -49,22 +54,21 @@ public class Account {
         
          //methods for polimorfism 
     
-    public abstract void deposit();
-    public abstract void withdraw();
+    public abstract void deposit(double amount);
+    public abstract void withdraw(double amount);
     public abstract double interestCalculation();
 
     @Override
     public String toString() {
        
-        String result= "\nBank Account INFORMATION"
+        String result = "\nBANK ACCOUNT INFORMATION:"
                 +"\n---------------------------------"
                 + "\nAccount Number: "+ this.getAccountNumber()
                 +"\nBalance: "+this.getBalance()
                 +"\nAccount Owner: " +this.getClient().toString();
           return result;
-    }//end class
+    }//ENDTOSTRING
 
          
         
-    }
-}
+    }//END CLASS
