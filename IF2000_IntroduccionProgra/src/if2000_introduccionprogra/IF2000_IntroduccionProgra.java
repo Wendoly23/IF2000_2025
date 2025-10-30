@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package if2000_introduccionprogra;
+import domain.Person;
+import domain.SavingAccount;
 import logic.*;
 /**
  *
@@ -89,7 +91,27 @@ public class IF2000_IntroduccionProgra {
 //        s3.sumacuadrados();
 //        s3.calculofactorial();
 //        s3.valormaximo();
-    }  
+
+//Person client1 = new Person("Wendoly", "Cruz", "7-0907-2098", "63074421", 19);
+//        
+//        SavingAccount account1 = new SavingAccount("2025-09-18", 12, 5, "2065785634", 30000, client1);
+//        
+//        //Simulation of deposit of 3000 collones in the account
+//        account1.deposit(3000);
+//        
+//        System.out.println(account1.toString());
+//        
+//        System.out.println("\n\n\n-----------------------------");       
+//        System.out.println("Withdraw of money");
+//        System.out.println("-----------------------------\n\n");
+//        
+//        account1.withdraw(14000);
+//        
+//        System.out.println(account1.toString());
+//
     
+    Juego juego = new Juego();
+        juego.iniciarJuego();
     
+    }    
 }
