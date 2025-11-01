@@ -110,8 +110,15 @@ public class IF2000_IntroduccionProgra {
 //        System.out.println(account1.toString());
 //
     
-    Juego juego = new Juego();
-        juego.iniciarJuego();
+//    Juego juego = new Juego();
+//        juego.iniciarJuego();
+
+ 
+        QuizRegistroPersona registro = new QuizRegistroPersona();
+        registro.QuizRegistro();
+ 
+
+
     
     }    
 }
